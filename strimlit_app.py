@@ -51,4 +51,4 @@ smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/wa
 st.text(smoothiefroot_response)
     
 
-    st.stop()
+st.stop()
