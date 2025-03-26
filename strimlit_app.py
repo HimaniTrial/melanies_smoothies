@@ -55,9 +55,7 @@ if options:
         session.sql(my_insert_stmt).collect()
         st.success('Your Smoothie is ordered!', icon="✅")
 
-
-
-        st.close()
+st.close()
     
 
 
