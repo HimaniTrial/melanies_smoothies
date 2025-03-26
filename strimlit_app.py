@@ -48,7 +48,7 @@ if options:
 
 import requests
 smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")
-sf_df=st.dataframe(data=smoothiefroot_response.json(),use_container_width=true)
+sf_df=st.dataframe(data=smoothiefroot_response.json(),use_container_width=True)
     
 
 st.stop()
