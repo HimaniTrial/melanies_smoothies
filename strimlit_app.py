@@ -56,7 +56,8 @@ if options:
         st.success('Your Smoothie is ordered!', icon="✅")
 
 
-st.close()
+
+    st.close()
     
 
 
